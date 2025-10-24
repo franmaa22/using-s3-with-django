@@ -113,6 +113,10 @@ REST_FRAMEWORK = {
     ]
 }
 
+#STORAGES
+
+DEFAULT_FILE_STORAGE = "storages.backends.s3.S3Storage"
+
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
